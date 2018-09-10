@@ -2,6 +2,7 @@ document.write('hello eslint')
 
 const root = document.querySelector('#root')
 const a = 1
+const b = 3
 root.onclick = function () {
     switch (a) {
         case 1:
@@ -14,3 +15,5 @@ root.onclick = function () {
             break
     }
 }
+
+console.log(b)
